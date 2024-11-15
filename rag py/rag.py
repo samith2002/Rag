@@ -10,7 +10,7 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 app = Flask(__name__)
 
 # Load Google API key from environment variable (replace with actual key if necessary)
-GOOGLE_API_KEY = "AIzaSyCuzHQdgJZBvpja3rHTPdIONY_a4PwUJZE"
+GOOGLE_API_KEY = "YOUR_API_KEY"
 
 # Initialize Gemini LLM and HuggingFace Embeddings
 llm = Gemini(model="models/gemini-1.5-flash", api_key=GOOGLE_API_KEY)
